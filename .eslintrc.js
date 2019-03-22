@@ -6,7 +6,9 @@ module.exports = {
     node: true
   },
   rules: {
-    "prettier/prettier": ["error", { "singleQuote": true }],
-    "no-console": "off"
+    "prettier/prettier": ["error", { "singleQuote": true }, { "tabWidth": 2 }, { "trailingComma": "es5" }],
+    "no-console": "off",
+    "no-param-reassign": "off",
+    "comma-dangle": ["error", "always"]
   }
 };
