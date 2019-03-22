@@ -1,0 +1,26 @@
+{
+  "name": "Professor-Redwood-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mralanlee <alanleunglee@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^1.3.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "discord.js": "^11.4.2",
+    "dotenv": "^7.0.0",
+    "hapi": "^18.1.0"
+  }
+}
