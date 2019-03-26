@@ -5,7 +5,7 @@ const client = new Discord.Client();
 const token = process.env.TOKEN;
 
 client.on('ready', () => {
-  logger.info('Initialized Bot')
+  logger.info('Initialized Bot');
 });
 
 client.login(token);
